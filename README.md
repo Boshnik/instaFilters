@@ -14,7 +14,7 @@
 #### Modifier
     {'/assets/image/img.jpg' | instaFilters : 'filter=1997&alt=filter-1977'}
     
-#### Параметры сниппета:
+### Параметры сниппета:
 Имя | Описание | По умолчанию
 --- | --- | ---
 tplOuter | Шаблон обвертки изображения | '@INLINE <figure class="filter-[[+filter]]">[[+wrapper]]</figure>'
@@ -24,3 +24,10 @@ alt | alt картинки |
 classes | Классы для картинки |
 filter | Фильтр картинки | Normal
 toPlaceholder | Вывод результата в плейсхолдер |
+
+### Поддержка браузера
+* Chrome (18+)
+* Microsoft Edge (13+)
+* Firefox (35+)
+* Safari (6+)
+* Opera (15+)
